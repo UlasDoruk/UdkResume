@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer  components{
+    .btn{@apply  bg-gray-900 rounded text-white p-2 font-mono hover:scale-110 font-bold}
+}
+
+/* bg-gray-900 rounded text-white p-2 tex-bold font-mono hover:scale-110 */
