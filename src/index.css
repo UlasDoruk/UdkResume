@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer  components{
-    .btn{@apply  bg-gray-900 rounded text-white p-2 font-mono hover:scale-110 font-bold}
+    .btn{
+        @apply rounded text-white p-2 bg-blue-400 hover:scale-110 font-bold hover:bg-red-500
+    }
+    .shortCardText{
+        @apply font-bold font-serif text-2xl mt-5
+    }
 }
-
-/* bg-gray-900 rounded text-white p-2 tex-bold font-mono hover:scale-110 */

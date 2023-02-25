@@ -6,7 +6,7 @@ import Projects from "./components/pages/Projects";
 
 function App() {
   return (
-    <div className="App bg-slate-800">
+    <div className="App">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/resume" element={<Resume />}></Route>
