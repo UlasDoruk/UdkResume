@@ -1,7 +1,7 @@
 
 function Navbar() {
   return (
-    <div className="mb-5 flex justify-between ">
+    <div className="mb-5 mt-5 flex justify-between ">
       <div className="ml-6 font-bold">
         <a href="#">CV</a>
       </div>
