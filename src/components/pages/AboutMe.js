@@ -1,20 +1,35 @@
-import React from 'react'
-import Navbar from "./Navbar";
+import {BsPersonCircle} from "react-icons/bs"
+import {AiFillCar} from "react-icons/ai"
+import {BsFillShieldFill} from "react-icons/bs"
 
 function AboutMe() {
   return (
     <div className="bg-white p-5">
-      <h1 className="font-bold font-sans text-7xl mb-20 mt-20">Hello</h1>
-      <div className="flex justify-center mb-36 mt-36">
+      <div className="flex justify-center mb-36 mt-14">
         <div className=" text-lg  w-auto pl-10 pr-10 tracking-widest text-justify">
-          <h2 className="mb-1 font-bold">About me</h2>
-          <hr/>
-          <p>
+          <h2 className="mb-1 font-bold flex justify-start">
+            <BsPersonCircle className="mr-2 mt-1" />
+            About me
+          </h2>
+          <hr />
+          <p className="mt-5">
             I graduated from the Hacettepe University Mining department in
             August 2021. I worked for eight months as an Underground Mining
             Engineer. Meanwhile, I decided to change my profession to being Web
             Developer. I am trying to improve myself in the field of Web
             Development for a year.
+          </p>
+          <p className="mt-5 flex">
+            <strong className="flex justify-start">
+              <AiFillCar className="mr-2 mt-1" /> Driver license
+            </strong>{" "}
+            : B
+          </p>
+          <p className="mt-5 flex">
+            <strong className="flex justify-start">
+              <BsFillShieldFill className="mr-2 mt-1" /> Military Service
+            </strong>{" "}
+           : 02.2024 (Postponed)
           </p>
         </div>
       </div>

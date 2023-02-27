@@ -14,13 +14,16 @@ function Left() {
         <h3 className="shortCardText  mb-5">Jr.Web Developer</h3>
         <footer className="bg-white">
           <div className="p-2 flex justify-around ">
-            <a href="#">
+            <a href="https://github.com/UlasDoruk" target={"_blank"}>
               <FiGithub className="w-7 h-7" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/karamanulas/"
+              target={"_blank"}
+            >
               <FaLinkedinIn className="w-7 h-7" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/hermes_udk/" target={"_blank"}>
               <FiInstagram className="w-7 h-7" />
             </a>
           </div>
