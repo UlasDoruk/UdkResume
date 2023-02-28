@@ -8,7 +8,7 @@ function Left() {
       <div className="bg-slate-200 mt-36">
         <img
           className="sm:w-80 sm:h-80 w-36 h-36 rounded-full m-10 inline "
-          src="img/Vesikalık.jpg"
+          src="assets/Vesikalık.jpg"
         ></img>
         <h2 className="shortCardText mt-5">Ulaş Doruk Karaman</h2>
         <h3 className="shortCardText  mb-5">Jr.Web Developer</h3>
