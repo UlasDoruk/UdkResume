@@ -4,9 +4,9 @@ import {BsFillShieldFill} from "react-icons/bs"
 
 function AboutMe() {
   return (
-    <div className="bg-white p-5 sm:p-2">
+    <div className="bg-white sm:p-3">
       <div className="flex justify-center mb-10 md:mb-36 mt-0 md:mt-14">
-        <div className=" text-lg  w-auto pl-2 sm:pl-10 sm:pr-10 tracking-widest text-justify">
+        <div className=" text-lg  w-auto pl-3 pr-3 sm:pl-10 sm:pr-10 tracking-widest text-justify">
           <h2 className="mb-1 font-bold flex justify-start">
             <BsPersonCircle className="mr-2 mt-1" />
             About me
