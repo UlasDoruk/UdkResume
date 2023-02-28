@@ -4,7 +4,7 @@ import Left from "./components/Left";
 
 function App() {
   return (
-    <div className="App bg-slate-700 flex justify-center">
+    <div className="App bg-slate-700 md:flex justify-center  ">
       <Left />
       <Right />
     </div>

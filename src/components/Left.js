@@ -4,10 +4,10 @@ import { FiInstagram } from "react-icons/fi";
 
 function Left() {
   return (
-    <aside className="flex h-max w-1/2 justify-center  sticky top-0">
-      <div className="bg-slate-200 mt-36">
+    <aside className="md:flex h-max md:w-1/2 justify-center w-screen  md:sticky md:top-0">
+      <div className="bg-slate-200 md:mt-36">
         <img
-          className="sm:w-80 sm:h-80 w-36 h-36 rounded-full m-10 inline "
+          className="sm:w-80 sm:h-80 w-36 h-36 rounded-full m-1 md:m-10 inline "
           src="assets/Vesikalık.jpg"
         ></img>
         <h2 className="shortCardText mt-5">Ulaş Doruk Karaman</h2>

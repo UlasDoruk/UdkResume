@@ -4,9 +4,9 @@ import {BsFillShieldFill} from "react-icons/bs"
 
 function AboutMe() {
   return (
-    <div className="bg-white p-5">
-      <div className="flex justify-center mb-36 mt-14">
-        <div className=" text-lg  w-auto pl-10 pr-10 tracking-widest text-justify">
+    <div className="bg-white p-5 sm:p-2">
+      <div className="flex justify-center mb-10 md:mb-36 mt-0 md:mt-14">
+        <div className=" text-lg  w-auto pl-2 sm:pl-10 sm:pr-10 tracking-widest text-justify">
           <h2 className="mb-1 font-bold flex justify-start">
             <BsPersonCircle className="mr-2 mt-1" />
             About me
@@ -29,7 +29,7 @@ function AboutMe() {
             <strong className="flex justify-start">
               <BsFillShieldFill className="mr-2 mt-1" /> Military Service
             </strong>{" "}
-           : 02.2024 (Postponed)
+            : 02.2024 (Postponed)
           </p>
         </div>
       </div>

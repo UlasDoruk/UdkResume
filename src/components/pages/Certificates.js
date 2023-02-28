@@ -1,51 +1,45 @@
-import {TbCertificate} from "react-icons/tb"
+import { IoNewspaperSharp } from "react-icons/io5";
 
 function Certificates () {
+
+  const certificates = [
+    {
+      name: "İstanbul Front-End Bootcamp",
+      link: "https://verified.sertifier.com/en/verify/53539883771989",
+      text: "Web Development,HTML,CSS, JavaScript, React.js",
+    },
+    {
+      name: "JavaScript",
+      link: "https://www.hackerrank.com/certificates/19ee16119ff5",
+      text: "Basic",
+    },
+    {
+      name: "Problem Solving",
+      link: "https://www.hackerrank.com/certificates/55b96c76fbef",
+      text: "Basic",
+    },
+  ];
+
   return (
-    <div className=" text-lg  pl-14 pr-14 tracking-widest text-justify mb-36">
+    <div className=" sections">
       <h2 className="mb-1 font-bold flex justify-start">
-        <TbCertificate className="mr-2 mt-1" /> Certificates
+        <IoNewspaperSharp className="mr-2 mt-1" /> Certificates
       </h2>
       <hr></hr>
-      <ul>
-        <li className="mt-5">
-          <a
-            target={"_blank"}
-            className="font-semibold underline"
-            href="https://verified.sertifier.com/en/verify/53539883771989"
-          >
-            İstanbul Front-End Bootcamp
-          </a>
-          <p>
-            <ul>
-              <li>Web Development</li>
-              <li>HTML,CSS</li>
-              <li>JavaScript</li>
-              <li>React.js</li>
-            </ul>
-          </p>
-        </li>
-        <li className="mt-5">
-          <a
-            target={"_blank"}
-            className="font-semibold underline"
-            href="https://www.hackerrank.com/certificates/19ee16119ff5"
-          >
-            JavaScript
-          </a>
-          <p>Basic</p>
-        </li>
-        <li className="mt-5">
-          <a
-            target={"_blank"}
-            className="font-semibold underline"
-            href="https://www.hackerrank.com/certificates/55b96c76fbef"
-          >
-            Problem Solving
-          </a>
-          <p>Basic</p>
-        </li>
-      </ul>
+      {certificates.map((item, index) => {
+        return (
+          <div className="mt-5" key={index}>
+            <a
+              target={"_blank"}
+              className="font-semibold underline"
+              href={item.link}
+            >
+              {item.name}
+            </a>
+            <p>{item.text}</p>
+          </div>
+        );
+      })}
     </div>
   );
 }

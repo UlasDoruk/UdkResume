@@ -1,4 +1,4 @@
-import {GrProjects} from "react-icons/gr"
+import { MdDesignServices } from "react-icons/md";
 
 function Projects() {
 
@@ -30,9 +30,9 @@ function Projects() {
   ];
 
   return (
-    <div className=" text-lg  pl-14 pr-14 tracking-widest text-justify mb-36" id="section2">
-      <h2 className="mb-1 font-bold flex justify-start" >
-        <GrProjects className="mr-2 mt-1" /> Projects
+    <div className="sections" id="section2">
+      <h2 className="mb-1 font-bold flex justify-start">
+        <MdDesignServices className="mr-2 mt-1" /> Projects
       </h2>
       <hr></hr>
       <ul>

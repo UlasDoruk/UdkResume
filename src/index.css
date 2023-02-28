@@ -4,9 +4,12 @@
 
 @layer  components{
     .shortCardText{
-        @apply font-bold font-serif text-2xl mt-5
+        @apply font-bold font-serif md:text-2xl mt-5
     }
     .aTag{
-      @apply  mr-6 font-bold
+      @apply mr-3 sm:mr-6 sm:font-bold hover:underline
+    }
+    .sections{
+        @apply text-lg pl-3 pr-3 sm:pl-14 sm:pr-14 tracking-widest text-justify mb-10 md:mb-36
     }
 }

@@ -3,23 +3,29 @@ import {BsFillArrowDownSquareFill} from "react-icons/bs"
 function Navbar() {
   return (
     <>
-      <div className="mb-5 p-2 flex justify-between sticky top-0 bg-white  border-b-gray-200 border">
-        <form
-          className="ml-6 font-bold"
-          method="get"
-          action="assets/Ulaş_Doruk KaramanResume.pdf"
-          target="_blank"
-        >
-          <button
-            type="submit"
-            className="rounded bg-blue-600 text-white pl-2 pr-2 pt-1 pb-1"
+      <div className="mb-5 sm:p-2 flex justify-center sm:justify-between sticky top-0 bg-white  border-b-gray-200 border flex-wrap">
+      
+          <form
+            className="ml-6 font-bold pr-3 pt-1 pb-1 "
+            method="get"
+            action="assets/Ulaş_Doruk KaramanResume.pdf"
+            target="_blank"
           >
-            <a className="flex justify-center" target={"_blank"}>
-              <BsFillArrowDownSquareFill className="mt-0 mr-2 w-6 h-6" /> CV
-            </a>
-          </button>
-        </form>
-        <div>
+            <button
+              type="submit"
+              className="rounded bg-blue-600 text-white pl-2 pr-2 sm:pt-1 sm:pb-1"
+            >
+              <a
+                className="flex justify-center font-thin md:font-bold"
+                target={"_blank"}
+              >
+                <BsFillArrowDownSquareFill className="mt-1 sm:mt-0 mr-2 md:w-6 md:h-6" />
+                CV
+              </a>
+            </button>
+          </form>
+
+        <div className="flex flex-wrap mt-1 mb-1">
           <a href="#section1" className="aTag">
             Experience
           </a>

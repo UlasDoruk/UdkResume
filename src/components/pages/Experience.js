@@ -2,7 +2,7 @@ import {MdWork} from "react-icons/md"
 
 function Resume() {
   return (
-    <div className="text-lg  pl-14 pr-14 tracking-widest text-justify mb-36">
+    <div className="sections">
       <h2 className="mb-1 font-bold flex justify-start" id="section1">
         <MdWork className="mr-2 mt-1" />
         Experience
