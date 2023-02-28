@@ -13,7 +13,7 @@ function Navbar() {
           >
             <button
               type="submit"
-              className="rounded bg-blue-600 text-white pl-2 pr-2 sm:pt-1 sm:pb-1"
+              className="rounded bg-blue-600 text-white pl-2 pr-2 mt-2 sm:mt-0 sm:pt-1 sm:pb-1"
             >
               <a
                 className="flex justify-center font-thin md:font-bold"
