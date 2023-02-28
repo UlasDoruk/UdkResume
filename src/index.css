@@ -6,4 +6,7 @@
     .shortCardText{
         @apply font-bold font-serif text-2xl mt-5
     }
+    .aTag{
+      @apply  mr-6 font-bold
+    }
 }

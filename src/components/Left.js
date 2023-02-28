@@ -4,11 +4,11 @@ import { FiInstagram } from "react-icons/fi";
 
 function Left() {
   return (
-    <div className="flex h-max w-1/2 justify-center  sticky left-0">
+    <aside className="flex h-max w-1/2 justify-center  sticky top-0">
       <div className="bg-slate-200 mt-36">
         <img
-          className="sm:w-96 sm:h-96 w-36 h-36 rounded-full m-10 inline "
-          src="https://marmotamaps.com/de/fx/wallpaper/download/faszinationen/Marmotamaps_Wallpaper_Berchtesgaden_Desktop_1920x1080.jpg"
+          className="sm:w-80 sm:h-80 w-36 h-36 rounded-full m-10 inline "
+          src="img/Vesikalık.jpg"
         ></img>
         <h2 className="shortCardText mt-5">Ulaş Doruk Karaman</h2>
         <h3 className="shortCardText  mb-5">Jr.Web Developer</h3>
@@ -29,7 +29,7 @@ function Left() {
           </div>
         </footer>
       </div>
-    </div>
+    </aside>
   );
 }
 

@@ -8,16 +8,15 @@ import Skills from "./pages/Skills";
 
 function Right() {
   return (
-    <div className=" h-max w-1/2 bg-white">
+    <aside className=" h-max w-1/2 bg-white">
       <Navbar/>
-      <hr></hr>
       <AboutMe />
       <Experience />
       <Projects />
       <Certificates/>
       <Skills/>
       <Contact />
-    </div>
+    </aside>
   );
 }
 

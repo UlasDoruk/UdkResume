@@ -13,7 +13,7 @@ function Skills() {
 
   return (
     <div className="text-lg  pl-14 pr-14 tracking-widest text-justify mb-36">
-      <h2 className="mb-1 font-bold flex justify-start">
+      <h2 className="mb-1 font-bold flex justify-start" id="section3">
         <BsMouse2Fill className="mr-2 mt-1" />
         Skills
       </h2>
