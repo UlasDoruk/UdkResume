@@ -6,7 +6,7 @@ function Education() {
       name: "Hacetepe University",
       section: "Information Systems / Master Degree",
       date: "October 2022 - Now",
-      mark: "",
+      mark: "3.38",
     },
     {
       name: "Hacetepe University",
