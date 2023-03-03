@@ -5,6 +5,7 @@ import Contact from "../components/pages/Contact";
 import Navbar from "./pages/Navbar";
 import Certificates from "./pages/Certificates";
 import Skills from "./pages/Skills";
+import Education from "./pages/Education";
 
 function Right() {
   return (
@@ -12,6 +13,7 @@ function Right() {
       <Navbar />
       <AboutMe />
       <Experience />
+      <Education/>
       <Projects />
       <Certificates />
       <Skills />
