@@ -6,13 +6,19 @@ function Education() {
       name: "Hacetepe University",
       section: "Information Systems / Master Degree",
       date: "October 2022 - Now",
-      mark: "3.38",
+      mark: "GPA : 3.38",
+    },
+    {
+      name: "Kodluyoruz",
+      section: "İstanbul Front-End React.js Bootcamp",
+      date: "Jun 2022 – Aug 2022",
+      mark: "",
     },
     {
       name: "Hacetepe University",
       section: "Mining Engineering / Undergraduate",
       date: "September 2015 - Agust 2021",
-      mark: "2.82",
+      mark: "GPA : 2.82",
     },
   ];
 
@@ -28,7 +34,7 @@ function Education() {
             <h1 className="font-bold">{item.name}</h1>
             <h2>{item.section}</h2>
             <h2>{item.date}</h2>
-            <p>GPA : {item.mark}</p>
+            <p> {item.mark}</p>
             <br></br>
           </div>
         );
